@@ -36,6 +36,9 @@ const getdata =()=>{
 
 
    })
+   .catch(err=>{
+    console.log(err)
+   })
 
 }
 
