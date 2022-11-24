@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-site</title>
+    <script src="./logic.js"></script>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+    <div class="main">
+        <div class="details">
+                <div class="icon-changing"><img src="" id="icon"/><span id="p0"></span></div>
+                <input type="text" placeholder="Ex: London" id="i1"/>
+                <button id="myBtn" onclick="getdata()">Search</button>
+                <p >Humidity: <span id="p1"></span></p>
+                <p >Pressure: <span id="p2"></span></p>
+                <p >Temperature: <span id="p3"></span></p>
+                <p >Wind :  <p> Speed : <p id="w1"></p></p>
+                            <p> Degree : <p id="w2"></p></p>
+                </p>
+                
+
+
+
+        </div>
+
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+      
+    <script>
+        VanillaTilt.init(document.querySelector(".details"), {
+          max: 2,
+          speed: 1,
+          glare: false,
+          "max-glare": 2.5,
+        });
+    </script>
+    
+</body>
+</html>
