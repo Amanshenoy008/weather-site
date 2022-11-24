@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+    
 }
 
 
@@ -11,7 +12,7 @@
     background-image: url('https://images.unsplash.com/photo-1461696114087-397271a7aedc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWVzdGhldGljfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
     background-repeat: no-repeat;
     background-size: cover;
-
+    overflow: hidden;
 
 }
 
@@ -28,8 +29,10 @@
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: aliceblue;
+    width:50%;
+    position: relative;
+    left:28%;
+    top:40%;
+
 }
 
-p:nth-child(4){
-
-}
